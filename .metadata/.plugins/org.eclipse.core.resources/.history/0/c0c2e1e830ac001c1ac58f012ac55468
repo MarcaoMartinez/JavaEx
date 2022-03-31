@@ -1,0 +1,19 @@
+package br.com.fiap;
+
+public class RadioEncapsulada {
+		
+		private int volume;
+		private float estacao;
+		
+		public void aumentarVolume() {
+		if (volume < 100) {
+			volume++;
+			
+		}	
+			
+		}
+	
+
+
+	
+}

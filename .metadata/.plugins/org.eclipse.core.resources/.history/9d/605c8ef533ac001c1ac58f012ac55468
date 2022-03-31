@@ -1,0 +1,36 @@
+package br.com.fiap;
+
+public class RadioEncapsulada {
+		
+		private int volume;
+		private float estacao;
+		
+		public void aumentarVolume() {
+			if (volume < 100) {
+				volume++;
+			}	
+		}
+	
+		public void diminuirVolume()  {
+			if (volume > 0) {
+				volume--;	
+			}
+
+		}
+		
+		// método GET para puxar o atributo Volume
+		
+		public int getVolume() {
+			return volume;
+		}
+		
+		
+		
+		// método SET para definir o atributo Estacao
+
+		
+		public float getEstacao() {
+			return estacao;
+		}
+		
+}

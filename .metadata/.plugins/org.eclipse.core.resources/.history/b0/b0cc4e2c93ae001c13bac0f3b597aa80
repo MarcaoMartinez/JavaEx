@@ -1,0 +1,40 @@
+// Marco Antonio L. Martinez Filho - 1 TDSVJ - Manhã
+
+
+package br.com.fiap;
+
+import java.util.Scanner;
+
+public class UsaGeometria {
+
+
+	public static void main(String[] args) {
+		Scanner scan;
+		float base;
+		float altura;
+		float raio;
+		float PI;
+		
+		scan = new Scanner(System.in);
+		
+		try {
+			System.out.println("Digite 4 números: ");
+			base = scan.nextFloat();
+			altura = scan.nextFloat();
+			raio = scan.nextFloat();
+			PI = scan.nextFloat();
+			
+			System.out.println("O resultado do Quadrado é: " + base * altura);
+			System.out.println("O resultado do Retângulo é: " + base * altura);
+			System.out.println("O resultado do Triângulo é: " + (base * altura) /2);
+			System.out.println("O resultado do Raio é: " + PI * raio * raio);
+
+		} catch (Exception e) {
+			System.out.println("Escreva um número correto!");
+		}
+		
+		
+	}
+
+}
+

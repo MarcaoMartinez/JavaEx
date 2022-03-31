@@ -1,0 +1,78 @@
+package br.com.fiap;
+
+public class Geometria {
+
+	private float base;
+	private float altura;
+	private double raio;
+
+		
+		public void calcularAreaQuadrado (float base) {	
+			
+	try {
+		
+		if (base >= 0 && base <= 100) {
+			this.base = base;
+		} else {
+			throw new Exception ("Base fora da faixa permitida (0 a 100)");
+		}
+		
+	} catch (Exception e) {
+		System.out.println(e.getMessage("Área do Quadrado: " + calcularAreaQuadrado));         }
+			
+			
+			
+	}
+		public void calcularAreaRetangulo (float base, float altura) {
+			
+	try {
+		if (base >= 0 && base <= 100) {
+			this.base = base;
+		} else {
+			throw new Exception ("Base fora da faixa permitida (0 a 100)");
+		}
+				} catch (Exception e) {
+				System.out.println(e.getMessage("Área do Retângulo: " + calcularAreaQuadrado));         }
+			
+			
+			
+			
+		}
+		public void calcularAreaTriangulo (float base, float altura) {
+			
+	try {
+		if (base >= 0 && base <= 100) {
+			this.base = base;
+		} else {
+			throw new Exception ("Base fora da faixa permitida (0 a 100)");
+		}
+						
+				} catch (Exception e) {
+						System.out.println(e.getMessage("Área do Triângulo: " + calcularAreaQuadrado));         }
+					
+					
+					
+					
+				}		
+		public void calcularAreaCirculo (double raio) {			
+			
+		try {
+			if (base >= 0 && base <= 100) {
+				this.base = base;
+		} else {
+				throw new Exception ("Base fora da faixa permitida (0 a 100)");
+		}
+								
+				} catch (Exception e) {
+								System.out.println(e.getMessage("Área do Círculo: " + calcularAreaQuadrado));         }
+							
+							
+							
+							
+						}
+			
+			final double PI = 3.14;
+
+		}
+	}
+

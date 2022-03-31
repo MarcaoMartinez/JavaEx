@@ -1,0 +1,117 @@
+// Marco Antonio L. Martinez Filho - 1 TDSVJ - Manhã
+
+
+package br.com.fiap;
+
+public class Geometria {
+
+	private float lado;
+	private float altura;
+	private double raio;
+	
+	
+	
+	
+		
+		public void calcularAreaQuadrado (float lado) {	
+			
+			
+		}
+	
+			
+		public float getLado() {
+				return lado;
+		}
+
+		public void setBase(float lado) {
+
+			
+	try {
+		
+		if (lado >= 0 && lado <= 100) {
+			this.lado = lado;
+		} else {
+			throw new Exception ("Base fora da faixa permitida (0 a 100)");
+		}
+		
+	} catch (Exception e) {
+		System.out.println(e.getMessage("Área do Quadrado: " + lado));         }
+			
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			
+	}
+		public void calcularAreaRetangulo (float base, float altura) {
+			
+	try {
+		if (base >= 0 && base <= 100 && altura >= 0 && altura <= 100) {
+			this.base = base;
+		} else {
+			throw new Exception ("Base fora da faixa permitida (0 a 100)");
+		}
+				} catch (Exception e) {
+				System.out.println(e.getMessage("Área do Retângulo: " + calcularAreaQuadrado));         }
+			
+			
+			
+			
+		}
+		public void calcularAreaTriangulo (float base, float altura) {
+			
+	try {
+		if (base >= 0 && base <= 100 && altura >= 0 && altura <= 100) {
+			this.base = base;
+			this.altura = altura;
+		} else {
+			throw new Exception ("Base fora da faixa permitida (0 a 100)");
+		}
+						
+				} catch (Exception e) {
+						System.out.println(e.getMessage("Área do Triângulo: " + calcularAreaQuadrado));         }
+					
+					
+					
+					
+				}		
+		public void calcularAreaCirculo (double raio) {			
+			
+		try {
+			if (raio >= 0 && raio <= 100) {
+				this.raio = raio;
+		} else {
+				throw new Exception ("Base fora da faixa permitida (0 a 100)");
+		}
+								
+				} catch (Exception e) {
+								System.out.println(e.getMessage("Área do Círculo: " + calcularAreaQuadrado));         }
+							
+							
+							
+							
+		public void mostrar() {
+				System.out.println("O resultado do Quadrado é: " + base * altura);
+				System.out.println("O resultado do Retângulo é: " + base * altura);
+				System.out.println("O resultado do Triângulo é: " + (base * altura) /2);
+				System.out.println("O resultado do Raio é: " + PI * raio * raio);
+							
+						}
+						
+
+		}
+	}
+
